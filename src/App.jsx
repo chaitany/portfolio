@@ -515,25 +515,9 @@ export default function App() {
       {/* Hero */}
       <header style={styles.hero}>
         <div style={styles.heroInner}>
-          <div style={styles.badgeRow}>
-            {[
-              { label: "React",      bg: "#E6F1FB", fg: "#0C447C" },
-              { label: "TypeScript", bg: "#EEEDFE", fg: "#3C3489" },
-              { label: "Node.js",    bg: "#EAF3DE", fg: "#27500A" },
-              { label: "Python",     bg: "#FEF3E2", fg: "#7A4100" },
-              { label: "AWS",        bg: "#FFF0E6", fg: "#8A3000" },
-            ].map((b) => (
-              <span
-                key={b.label}
-                style={{ ...styles.heroBadge, background: b.bg, color: b.fg }}
-              >
-                {b.label}
-              </span>
-            ))}
-          </div>
           <h1 style={styles.heroName}>Chaitanya Reddy Vaddula</h1>
           <p style={styles.heroSub}>
-            Lead Software Engineer · 10+ years · React, TypeScript, Node.js
+            Lead Software Engineer · 10+ years · Full-Stack Engineer, Cloud-AWS, CI/CD, Mentor
           </p>
           <Terminal />
         </div>
@@ -642,7 +626,7 @@ const styles = {
   },
   heroSub: {
     fontSize: 15,
-    color: "#94A3B8",
+    color: "#fff",
     margin: "0 0 2rem",
     fontWeight: 400,
   },
